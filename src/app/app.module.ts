@@ -4,7 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { AllViewModule } from './all-view/all-view.module';
+import { SharedModule } from './shared/shared.module';
+
 
 @NgModule({
   declarations: [
@@ -13,7 +14,7 @@ import { AllViewModule } from './all-view/all-view.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AllViewModule
+    SharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
