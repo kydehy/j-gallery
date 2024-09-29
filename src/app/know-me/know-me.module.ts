@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { KnowMeComponent } from './know-me/know-me.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    KnowMeComponent
+  ],
   imports: [
     CommonModule
   ]
