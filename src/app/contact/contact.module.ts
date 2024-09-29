@@ -7,7 +7,6 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
   declarations: [
     ContactMeComponent
   ],
-  declarations: [],
   imports: [
     CommonModule
   ]
