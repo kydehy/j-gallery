@@ -8,6 +8,7 @@ import { GalleryComponent } from './components/gallery/gallery.component';
   declarations: [
     GalleryComponent
   ],
+  declarations: [],
   imports: [
     CommonModule
   ]

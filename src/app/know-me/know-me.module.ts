@@ -8,6 +8,7 @@ import { KnowMeComponent } from './know-me/know-me.component';
   declarations: [
     KnowMeComponent
   ],
+  declarations: [],
   imports: [
     CommonModule
   ]
