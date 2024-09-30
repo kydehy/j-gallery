@@ -10,6 +10,9 @@ import { GalleryComponent } from './components/gallery/gallery.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    GalleryComponent
   ]
 })
 export class GalleryModule { }
