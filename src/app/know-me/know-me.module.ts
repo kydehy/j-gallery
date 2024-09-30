@@ -10,6 +10,9 @@ import { KnowMeComponent } from './know-me/know-me.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    KnowMeComponent
   ]
 })
 export class KnowMeModule { }
